@@ -6,7 +6,7 @@ Created on Wed Feb 27 2022
 
 # import dependencies
 # import os
-import json
+# import json
 import requests
 import pandas as pd
 import plotly.express as px
