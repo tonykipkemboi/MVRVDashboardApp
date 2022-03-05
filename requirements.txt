@@ -1,5 +1,3 @@
-# os
-# json
 requests
 pandas 
 plotly.express
