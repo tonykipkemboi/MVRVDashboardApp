@@ -5,17 +5,17 @@ Created on Wed Feb 27 2022
 """
 
 # import dependencies
-import os
+# import os
 import json
 import requests
 import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-# load dotenv
-from dotenv import load_dotenv
-load_dotenv()
-MY_API = os.getenv("API_KEY")
+# # load dotenv
+# from dotenv import load_dotenv
+# load_dotenv()
+MY_API = st.secrets["API_KEY"]
 
 
 # Variable to hold dataframes from api queries
